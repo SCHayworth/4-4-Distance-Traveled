@@ -16,5 +16,15 @@ For example, if a train travels 40 miles per hour for three hours, the distance 
 
 # Pseudocode
     START
-    Create algorithm for the program here.
+    Set header template string to the following:
+        Hour                Distance Traveled
+        -------------------------------------
+        
+    Prompt user for the speed in mph
+    Prompt user for the total hours traveled
+    Print underline characters
+    FOR each hour traveled
+        on each line:
+            print hour
+            print distance traveled = speed * hour
     END
