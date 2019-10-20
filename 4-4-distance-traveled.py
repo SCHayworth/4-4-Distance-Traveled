@@ -23,6 +23,6 @@ time = int(input('How many hours has it traveled? '))
 print(header)
 
 # Calculate the total distance traveled at each hour of travel and display the results in two columns.
-for hour in range(time):
+for hour in range(1, time + 1):
     distance = hour * speed
-    print(f'{hour:<10f} {distance:>10f}')
+    print(f'{hour:<15.0f} {distance:>10.0f}')
